@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="shortcut icon" href="src/icons/cep.png">
+    <title>Consulta CEP API</title>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h3>Consulta CEP</h3>
+            <h6>API "viacep"</h6>
+            <div class="form-group"><label for="CEP">CEP</label><input type="text" class="form-control" id="cep"><small></small></div>
+            <div class="form-group"><label for="Logradouro">Logradouro</label><input type="text" class="form-control" id="logradouro"><small></small></div>
+            <div class="form-group"><label for="Complemento">Complemento</label><input type="text" class="form-control" id="complemento"><small></small></div>
+            <div class="form-group"><label for="Bairro">Bairro</label><input type="text" class="form-control" id="bairro"><small></small></div>
+            <div class="form-group"><label for="Localidade">Localidade</label><input type="text" class="form-control" id="localidade"><small></small></div>
+            <div class="form-group"><label for="UF">UF</label><input type="text" class="form-control" id="uf"><small></small></div>
+        </form>
+    </div>
+    <script src="src/js/main.js"></script>
+    
+    <style>
+        .container{
+            background:#fff;
+        }
+        .form-control {
+            background: whitesmoke;
+        }
+        h3 {
+            margin-top: 1em;
+        }
+        h6 {
+            margin-bottom: 1em;
+        }
+    </style>
+</body>
+
+</html>
